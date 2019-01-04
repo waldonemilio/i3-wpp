@@ -1,6 +1,6 @@
 # i3-wpp
 
-i3-wpp is intended to be a wallpapper manager for the i3wm (also compatible with i3-gaps). It takes a given folder containing wallpappers and assigns randomly one wallpapper per workspace per i3 session. The wallpappers will remain fixed on each workspace even if you change the focused workspace with a mouse click. For now, the workspace name has to be the default i3 names, 1 to 10.
+i3-wpp is intended to be a wallpapper manager for the i3wm (also compatible with i3-gaps). On its current form it takes a given folder containing wallpappers and assigns randomly one wallpapper per workspace per i3 session. The wallpappers will remain fixed on each workspace even if you change the focused workspace with a mouse click. For now, the workspace name has to be the default i3 names, 1 to 10.
 
 It makes use of [i3 IPC interface](https://i3wm.org/docs/ipc.html) and the python library [i3ipc-python](https://github.com/acrisci/i3ipc-python) to listen to i3 events.
 
