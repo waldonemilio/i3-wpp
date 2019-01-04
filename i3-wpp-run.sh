@@ -1,10 +1,8 @@
 #!/bin/bash
 
-path2wallpappers=$1
+path2i3wpp=$(dirname $0)
 
-echo $path2wallpappers
-
-./i3-wpp.sh $1
+$path2i3wpp/i3-wpp.sh $1
 feh --bg-fill $1/.img1
-python ./i3-wpp.py $1
+python $path2i3wpp/i3-wpp.py $1
 
