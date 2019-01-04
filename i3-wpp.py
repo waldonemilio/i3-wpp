@@ -14,7 +14,11 @@ def on_workspace_focus(self, e):
     # The first parameter is the connection to the ipc and the second is an object
     # with the data of the event sent from i3.
     if e.current:
-       i3.command('exec --no-startup-id feh --bg-fill %s/img%s' %
+        
+        if e.current.name == '10':
+            e.current.name = '0'
+        
+        i3.command('exec --no-startup-id feh --bg-fill %s/img%s' %
                (path2wallpappers, e.current.name))
 
 # Subscribe to events
