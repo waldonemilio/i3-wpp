@@ -18,9 +18,7 @@ chmod +x i3-wpp*
 
 Add to your i3 config
 ```
-exec_always --no-startup-id PATH/TO/i3-wpp.sh /PATH/TO/WALLPAPPERS
-exec_always --no-startup-id feh --bg-fill /PATH/TO/WALLPAPPERS/.img1
-exec_always --no-startup-id python PATH/TO/i3-wpp.py /PATH/TO/WALLPAPPERS
+exec_always --no-startup-id PATH/TO/i3-wpp-launcher.sh /PATH/TO/WALLPAPPERS
 ```
 
 For best results remove any wallpapper config from your i3 configuration
