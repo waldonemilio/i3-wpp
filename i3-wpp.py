@@ -18,7 +18,7 @@ def on_workspace_focus(self, e):
         if e.current.name == '10':
             e.current.name = '0'
         
-        i3.command('exec --no-startup-id feh --bg-fill %s/img%s' %
+        i3.command('exec --no-startup-id feh --bg-fill %s/.img%s' %
                (path2wallpappers, e.current.name))
 
 # Subscribe to events
