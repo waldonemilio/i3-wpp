@@ -1,6 +1,6 @@
 #!/bin/bash
 
-path2wallpappers='/home/emilio/configuration/wallpappers'
+path2wallpappers=$1
 i=0
 
 ls $path2wallpappers | sort -R | grep -v img | head | 
