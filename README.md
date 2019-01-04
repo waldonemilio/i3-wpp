@@ -9,5 +9,14 @@ Currently consists of two scripts one in bash and one in python. It takes a give
 * i3ipc-python
 
 ## Installation
+```
+git clone https://github.com/waldonemilio/i3-wpp.git
+```
 
+Add to your i3 config
+```
+exec_always --no-startup-id PATH/TO/i3-wpp.sh /PATH/TO/WALLPAPPERS
+
+exec_always --no-startup-id python PATH/TO/i3-wpp.py /PATH/TO/WALLPAPPERS
+```
 
