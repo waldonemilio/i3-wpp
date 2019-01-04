@@ -12,6 +12,8 @@ It makes use of [i3 IPC interface](https://i3wm.org/docs/ipc.html) and the pytho
 ## Usage
 ```
 git clone https://github.com/waldonemilio/i3-wpp.git
+cd i3-wpp
+chmod +x i3-wpp*
 ```
 
 Add to your i3 config
@@ -24,5 +26,5 @@ exec_always --no-startup-id python PATH/TO/i3-wpp.py /PATH/TO/WALLPAPPERS
 For best results remove any wallpapper config from your i3 configuration
 
 ## Limitations
-* Do not support multimonitor setups. Works on single monitor only
+* Does not support multimonitor setups. Works on single monitor only
 * Workspaces names should be named from 1 to 10
